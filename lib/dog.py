@@ -38,7 +38,6 @@ class Dog:
             dog.id = row[0]
             return dog
 
-
     @classmethod
     def get_all(cls):
         CURSOR.execute('SELECT * FROM dogs')
